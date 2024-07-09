@@ -6,16 +6,16 @@ authors = ["Your Name <you@example.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.11"
-torch = {version = "~2.0.0", source = "torch-cpu"}
-torchvision = {version = "~0.15.0", source = "torch-cpu"}
+python = "^3.12"
+torch = {version = "~2.2.0", source = "torch-cpu"}
+torchvision = {version = "~0.17.0", source = "torch-cpu"}
 timm = "0.5.4"
 pdf2image = "^1.17.0"
 pdfplumber = "^0.11.1"
 transformers = "^4.42.3"
 opencv-python = "^4.10.0.84"
-pillow = "9.5.0"
-scipy = "<1.14.0"
+pillow = "~10.1.0"
+scipy = "~1.14.0"
 shapely = "^2.0.4"
 setuptools = "<70.0.0"
 wheel = "^0.43.0"
